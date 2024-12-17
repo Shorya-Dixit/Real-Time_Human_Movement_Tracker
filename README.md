@@ -3,6 +3,8 @@
 ## Project Overview
 This project implements a real-time human movement tracker using OpenCV and MediaPipe. The tracker captures a live webcam feed, detects human landmarks (including face, body, and hands), and draws bounding boxes around the human figure.
 
+---
+
 ## Objectives
 
 - Capture live webcam feed in real-time.
@@ -10,11 +12,15 @@ This project implements a real-time human movement tracker using OpenCV and Medi
 - Draw bounding boxes around the detected human figure (body + head).
 - Display the processed video feed with tracking overlays.
 
+---
+
 ## Requirements
 
 - Python 3.x
 - OpenCV
 - MediaPipe
+
+---
 
 ## Setup Instructions
 
@@ -68,11 +74,15 @@ Once you are done with the project, you can deactivate the virtual environment u
 deactivate
 ```
 
+---
+
 ## How It Works
 The project uses the MediaPipe Holistic model, which provides human pose, face, and hand landmarks. The code captures frames from the webcam, processes them to detect these landmarks, and then draws a bounding box around the detected human figure.
 
 - The Holistic model is used for detecting both the body and face landmarks.
 - A bounding box is drawn based on the minimum and maximum x/y coordinates of the detected landmarks.
+
+---
 
 ## Notes
 - The code uses OpenCV for handling video capture and drawing bounding boxes on the frames.
