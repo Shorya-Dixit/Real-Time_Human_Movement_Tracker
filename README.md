@@ -50,7 +50,7 @@ pip install opencv-python mediapipe
 Clone or download the repository to your local machine.
 
 ```python
-git clone https://github.com/Shorya-Dixit/TensorFlow_Lite_Pose_Estimation.git
+git clone https://github.com/Shorya-Dixit/Real-Time_Human_Movement_Tracker.git
 ```
 
 ### 4. Run the Project
@@ -71,10 +71,10 @@ deactivate
 ## How It Works
 The project uses the MediaPipe Holistic model, which provides human pose, face, and hand landmarks. The code captures frames from the webcam, processes them to detect these landmarks, and then draws a bounding box around the detected human figure.
 
-The Holistic model is used for detecting both the body and face landmarks.
-A bounding box is drawn based on the minimum and maximum x/y coordinates of the detected landmarks.
+- The Holistic model is used for detecting both the body and face landmarks.
+- A bounding box is drawn based on the minimum and maximum x/y coordinates of the detected landmarks.
 
 ## Notes
-The code uses OpenCV for handling video capture and drawing bounding boxes on the frames.
-MediaPipe is used for detecting landmarks for pose, face, and hands.
-Ensure your webcam is properly connected and accessible for the application to function.
+- The code uses OpenCV for handling video capture and drawing bounding boxes on the frames.
+- MediaPipe is used for detecting landmarks for pose, face, and hands.
+- Ensure your webcam is properly connected and accessible for the application to function.
