@@ -1,5 +1,6 @@
 # Real-Time Human Movement Tracker
 
+## **Project Overview**
 This project implements a real-time human movement tracker using OpenCV and MediaPipe. The tracker captures a live webcam feed, detects human landmarks (including face, body, and hands), and draws bounding boxes around the human figure.
 
 ## Requirements
